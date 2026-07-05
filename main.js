@@ -1,6 +1,5 @@
-// const heading = document.createElement('h2');
-// heading.innerText = 'Hello World';
-// document.body.appendChild(heading);
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const heading = React.createElement(
     "div",
