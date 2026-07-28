@@ -1,12 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import { createRoot } from "react-dom/client";
+
 
 const heading = React.createElement(
     "div",
-    { id: "parent" },
-    ["Hello", React.createElement("span", { style: { color: "red" } }, "World")]
+    {id:"div"},
+    "Hello World from React",
+    React.createElement("h1",{id:"span"}," this is span tag"),
+    React.createElement("h2",null," this is h2 tag")
 );
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
 
 root.render(heading);
