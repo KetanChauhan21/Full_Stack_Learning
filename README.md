@@ -11,3 +11,11 @@
 - minification
 - Building
 - Compressing
+- Consistent hashing
+- code splitting
+- difference Bundling
+- diagnostic
+- Error handling
+- HTTPS
+- Tree Shaking - remove unused code
+- diff Build for dev and production
