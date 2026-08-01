@@ -19,3 +19,20 @@
 - HTTPS
 - Tree Shaking - remove unused code
 - diff Build for dev and production
+
+
+
+# React component vs react element
+
+<!-- this is the the react element -->
+const element1 = <h1>this is react element</h1>;
+
+<!-- this it the react component -->
+const ReactComponent = () => {
+  return (
+    <div>
+      {element1}
+      <p>this is ReactComponent ❤️❤️❤️❤️❤️</p>
+    </div>
+  );
+};
